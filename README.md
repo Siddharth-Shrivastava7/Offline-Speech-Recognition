@@ -1,2 +1,27 @@
 # Offline-Speech-Recognition
 Speech Recognition using Pocket-sphinx
+
+Installation of Pocket-Sphinx speech recognition engine in Debaian OS:
+
+sudo apt-get install git
+sudo apt-get install automake
+sudo apt-get install libtool
+sudo apt-get install bison
+sudo apt-get install python-dev
+sudo apt-get install swig
+sudo apt-get install make
+sudo apt-get install pkg-config
+git clone https://github.com/cmusphinx/sphinxbase.git
+cd sphinxbase
+./autogen.sh
+make
+sudo make install
+cd ..
+git clone git://github.com/cmusphinx/pocketsphinx.git
+cd pocketsphinx
+./autogen.sh
+make
+sudo make install
+cd ..
+
+
