@@ -53,7 +53,7 @@ You’ll see a screen with a headline "Sphinx knowledge base generator [lmtool.3
 >>> convert the ‘Language Model’ into binary by changing its file extension from ".lm" to ".lm.bin"
 
 
-"" NOW YOU ARE ALL SET TO TEST OUR SPEECH RECOGINITION PYTHON MODULE WITH YOUR CORPUS""
+"" NOW YOU ARE ALL SET TO TEST SPEECH RECOGINITION PYTHON MODULE WITH YOUR OWN CORPUS""
 
 
 
