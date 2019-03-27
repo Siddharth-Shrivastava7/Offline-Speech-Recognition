@@ -1,8 +1,11 @@
-# Offline-Speech-Recognition
+# Offline-Speech-Recognition of your OWN corpus of words
 
-Speech Recognition using Pocket-sphinx and pyauido 
+## Using Pocket-sphinx speech recognition engine  
 
-- Installation of Pocket-Sphinx speech recognition engine in Debaian OS:
+- Install Pocket-Sphinx speech recognition engine in Debaian OS
+- Create your own dictionary model and language model using Sphinx Knowledge Base Tool. 
+- Now the code to get results.
+
 
 
 
