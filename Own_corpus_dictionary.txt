@@ -7,15 +7,20 @@ The three main arguments we give to pocketsphinx_continuous which may determine 
   -dict : The Dictionary
 
 
-The Acoustic Model is created by taking audio of speech and the corresponding text transcription. Then statistical representations of the sounds that make up each word are created from this data to make the Acoustic Model.The one which comes with pocketsphinx is the most optimized and comprehensive. Hence, we don’t need to create another acoustic model, we’ll just use the one we have.
+The Acoustic Model is created by taking audio of speech and the corresponding text transcription. 
+Then statistical representations of the sounds that make up each word are created from this data to make the Acoustic Model.
+The one which comes with pocketsphinx is the most optimized and comprehensive. 
+Hence, we don’t need to create another acoustic model, we’ll just use the one we have.
 
 The Language Model is actually a statistical language model which assigns probability to each word that it’s given using a probability distribution formula.
 
-The Dictionary is the actual set of words which are given to the language model. The dictionary also represents how the words are pronounced.
+The Dictionary is the actual set of words which are given to the language model. 
+The dictionary also represents how the words are pronounced.
 
 So, since we’ll be using the default acoustic model, we can change the language model and the dictionary to add more, new words.
 
->>> To do that, create a new file and add the words which you want to be specifically recognized, this will be your corpus:
+>>> To do that, create a new file and add the words which you want to be specifically recognized, 
+this will be your corpus:
 
 sample.txt (filename)
 
@@ -29,7 +34,8 @@ sleep
 
 Then, go to the following link: http://www.speech.cs.cmu.edu/tools/lmtool.html Use the newer version of lm tool mentioned there. 
 
->>> Under "Upload a sentence corpus file:" Select the corpus file you’ve created from your local repository (here we’ve made ‘sample.txt‘) so upload sample.txt file.
+>>> Under "Upload a sentence corpus file:" Select the corpus file you’ve created from your local repository
+(here we’ve made ‘sample.txt‘) so upload sample.txt file.
 
 >>> Build the corpus by clicking on the ‘COMPILE KNOWLEDGE BASE’ button.
 
